@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Newsreader', serif;
+}
+
+.section {
+    margin: 22px 0 50px 50px;
+}
+
+.section h1 {
+    padding-bottom: 8px;
+}
+
+/* GLOBAL FONTS */
+
+p, figcaption {
+    font-family: 'Lato', sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    padding: 20px 0 0px 0;
+}
+
+.navbar h1 {
+    font-size: 70px;
+    padding-top: 15px;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.navmenu {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    align-self: center;
+    padding: 30px 0 0px 0;
+}
+
+.navmenu a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-weight: 700;
+}
+
+/* WORKS SECTION */
+
+.works-section {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+}
+
+.works-item {
+
+}
+
+img {
+    height: 300px;
+    width: auto;
+}
+
+/* FOOTER */
+
+footer {
+    color: white;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #000000 42%, #000000 0%);
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-family: 'Newsreader', sans-serif;
+    padding: 80px 0 29px 0;
+}
