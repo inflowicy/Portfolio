@@ -71,6 +71,12 @@ img {
     width: auto;
 }
 
+/* QUOTE */
+
+.quote {
+    text-align: center;
+}
+
 /* FOOTER */
 
 footer {
