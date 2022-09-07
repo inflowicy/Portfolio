@@ -63,11 +63,12 @@ p, figcaption {
 }
 
 .works-item {
-
+    display: block;
+    width: 650px;
 }
 
 img {
-    height: 300px;
+    height: 280px;
     width: auto;
 }
 
@@ -75,6 +76,18 @@ img {
 
 .quote {
     text-align: center;
+    margin-left: 2%;
+    margin-right: 62%;
+    margin-top: 10px;
+}
+
+.quote blockquote {
+    font-size: 40px;
+    color:#242424;
+}
+
+.quote figcaption {
+    margin-top: 24px;
 }
 
 /* FOOTER */
